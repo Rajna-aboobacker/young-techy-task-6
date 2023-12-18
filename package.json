@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "up": "export EXPO_PACKAGER_PROXY_URL=https://${CSB_SANDBOX_ID}-8080.csb.app && expo start --port 8080",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
